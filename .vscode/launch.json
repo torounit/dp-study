@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Sum",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "runtimeExecutable": "deno",
+        "runtimeArgs": ["run", "--inspect-brk", "-A", "sum/main.ts"],
+        "attachSimplePort": 9229,
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Knapsack",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "runtimeExecutable": "deno",
+        "runtimeArgs": ["run", "--inspect-brk", "-A", "knapsack/main.ts"],
+        "attachSimplePort": 9229,
+        "console": "integratedTerminal"
+      }
+    ]
+}
